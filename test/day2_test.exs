@@ -3,7 +3,13 @@ defmodule Day2Test do
 
   describe "part_one" do
     test "example" do
-      assert Day2.run("data/2/example.txt") == 150
+      assert Day2.PartOne.run("data/2/example.txt") == 150
+    end
+  end
+
+  describe "part_two" do
+    test "example" do
+      assert Day2.PartTwo.run("data/2/example.txt") == 900
     end
   end
 end
