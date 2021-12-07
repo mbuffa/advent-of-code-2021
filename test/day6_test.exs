@@ -6,5 +6,9 @@ defmodule Day6Test do
       assert Day6.PartOne.run("data/6/example.txt", 18) == 26
       assert Day6.PartOne.run("data/6/example.txt", 80) == 5934
     end
+
+    test "input" do
+      assert Day6.PartOne.run("data/6/input.txt", 80) == 359344
+    end
   end
 end
