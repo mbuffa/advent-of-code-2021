@@ -8,8 +8,14 @@ defmodule Day5Test do
 
     # This times out 60s. There *might* be a better algo...
     # test "input" do
-    #   assert Day5.PartOne.run("data/5/input.txt") == 5
+    #   assert Day5.PartOne.run("data/5/input.txt") == 5306
     # end
+  end
+
+  describe "part two" do
+    test "example" do
+      assert Day5.PartTwo.run("data/5/example.txt") == 12
+    end
   end
 
   describe "find_largest_position" do
