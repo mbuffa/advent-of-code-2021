@@ -1,0 +1,19 @@
+Known: 1 4 7 8
+Unknown: 0 2 3 5 6 9
+Can deduce top from 7 -- 1
+
+Segments 4 appears 3 times (in 4 8 9)
+  Can deduce 9 because it's the only number not known
+  Can deduce bottomleft from 8 -- 9
+  Known: 1 4 7 8 9
+  Unknown: 2 3 5 6 0
+
+Segments 1 appears 7 times (in 0, 1, 3, 4, 7, 8, 9)
+  Can deduce 3 being the last unknown character in which 1 appears of that length
+  Can deduce 0 being the last unknown character in which 1 appears of that length
+
+  Can deduce 6 being 1 character away from 8 (and not being eauql to 9)
+  Can deduce 5 being 1 characters away from 6
+  Can deduce 2 being the last unknown character
+  Known: 0 1 2 3 4 5 6 7 8 9
+  Unknown:
